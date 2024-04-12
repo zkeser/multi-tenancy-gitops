@@ -35,7 +35,9 @@ spec:
                 accept: true
                 use: CloudPakForIntegrationProduction
               adminApi: {}
-              adminUI: {}
+              adminUI:
+                authentication:
+                - type: iam
               apicurioRegistry: {}
               collector: {}
               restProducer: {}
