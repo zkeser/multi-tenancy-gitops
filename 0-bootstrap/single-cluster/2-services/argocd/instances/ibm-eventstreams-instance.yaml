@@ -37,7 +37,7 @@ spec:
               adminApi: {}
               adminUI:
                 authentication:
-                - type: iam
+                  - type: iam
               apicurioRegistry: {}
               collector: {}
               restProducer: {}
