@@ -37,7 +37,7 @@ spec:
               adminApi: {}
               adminUI:
                 authentication:
-                  - type: iam
+                  - type: scram-sha-512
               apicurioRegistry: {}
               collector: {}
               restProducer: {}
