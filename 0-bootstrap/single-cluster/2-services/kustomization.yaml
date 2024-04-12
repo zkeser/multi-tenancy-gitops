@@ -13,6 +13,7 @@ resources:
 #- argocd/operators/ibm-datapower-operator.yaml
 - argocd/operators/ibm-eventstreams-operator.yaml
 - argocd/instances/ibm-eventstreams-instance.yaml
+- argocd/instances/ibm-eventstreams-user.yaml
 #- argocd/operators/ibm-mq-operator.yaml
 #- argocd/operators/ibm-opsdashboard-operator.yaml
 #- argocd/operators/ibm-platform-navigator.yaml
