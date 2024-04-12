@@ -35,9 +35,7 @@ spec:
                 accept: true
                 use: CloudPakForIntegrationProduction
               adminApi: {}
-              adminUI:
-                authentication:
-                  - type: scram-sha-512
+              adminUI: {}
               apicurioRegistry: {}
               collector: {}
               restProducer: {}
