@@ -1,5 +1,5 @@
 resources:
-#- argocd/consolelink.yaml
+- argocd/consolelink.yaml
 #- argocd/consolenotification.yaml
 #- argocd/machine-configuration.yaml
 - argocd/namespace-ibm-common-services.yaml
@@ -32,22 +32,22 @@ resources:
 #- argocd/namespace-ssp.yaml
 #- argocd/namespace-sccm.yaml
 #- argocd/serviceaccounts-baw.yaml
-#- argocd/serviceaccounts-ibm-common-services.yaml
-#- argocd/serviceaccounts-tools.yaml
+- argocd/serviceaccounts-ibm-common-services.yaml
+- argocd/serviceaccounts-tools.yaml
 #- argocd/serviceaccounts-db2.yaml
 #- argocd/serviceaccounts-mq.yaml
 #- argocd/serviceaccounts-b2bi-prod.yaml
 #- argocd/serviceaccounts-b2bi-nonprod.yaml
 #- argocd/namespace-ssp.yaml
-#- argocd/serviceaccounts-pem.yaml
-#- argocd/serviceaccounts-sccm.yaml
+# - argocd/serviceaccounts-pem.yaml
+# - argocd/serviceaccounts-sccm.yaml
 #- argocd/sfg-b2bi-clusterwide.yaml
 #- argocd/pem-b2bi-clusterwide.yaml
 #- argocd/sccm-clusterwide.yaml
 #- argocd/scc-wkc-iis.yaml
 #- argocd/norootsquash.yaml
 #- argocd/daemonset-sync-global-pullsecret.yaml
-#- argocd/storage.yaml
+- argocd/storage.yaml
 #- argocd/infraconfig.yaml
 #- argocd/machinesets.yaml
 patches:
